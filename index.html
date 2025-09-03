@@ -3,31 +3,157 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo - Seu Nome</title>
+  <title>Currículo - Silvio Dias Ferreira</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1, h2 { color: #2c3e50; }
-    .section { margin-bottom: 30px; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-size: 0.95rem;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-top: 30px;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #3498db;
+      color: white;
+      padding: 6px 12px;
+      margin: 4px 6px 4px 0;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .container {
+        padding: 20px;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Seu Nome</h1>
-  <p><strong>Email:</strong> seuemail@email.com | <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/seulinkedin">Perfil</a></p>
+  <div class="container">
+    <header>
+      <h1>Silvio Dias Ferreira</h1>
+      <p>(67) 99329-8231 | silviodias.ms@gmail.com</p>
+      <p><a href="https://linkedin.com/in/silvio-dias-ferreira" target="_blank">LinkedIn</a> | Campo Grande/MS</p>
+      <p>Casado | 49 anos | Natural de Ladário/MS</p>
+    </header>
 
-  <div class="section">
-    <h2>Resumo</h2>
-    <p>Profissional com mais de 20 anos em suporte técnico, 5 anos como instrutor e 4 anos em desenvolvimento de sistemas...</p>
-  </div>
+    <div class="section">
+      <h2>Objetivo</h2>
+      <p>Atuar como Analista/Desenvolvedor de Sistemas Full Stack, aplicando conhecimentos em programação, banco de dados e desenvolvimento web, aliado à experiência em implantação e manutenção de sistemas corporativos.</p>
+    </div>
 
-  <div class="section">
-    <h2>Experiência</h2>
-    <p><strong>Analista de Sistemas</strong> – Projeto Folha de Pagamento do Estado<br>Backend (C#, ASP.NET, Java, Spring Boot) | Frontend (React, JS, HTML5, CSS3)</p>
-    <p><strong>Técnico de Suporte</strong> – CHIPTEK Informática<br>Manutenção em notebooks e atendimento de campo.</p>
-  </div>
+    <div class="section">
+      <h2>Resumo Profissional</h2>
+      <p>Profissional com mais de 20 anos de experiência em TI, migrando de suporte técnico para o desenvolvimento de software. Experiência em projetos corporativos, incluindo manutenção de folha de pagamento, implantação de portais e sistemas web e integração com e-Social. Domínio de linguagens e frameworks para backend e frontend, banco de dados e boas práticas de desenvolvimento. Perfil analítico, autodidata e colaborativo.</p>
+    </div>
 
-  <div class="section">
-    <h2>Educação e Cursos</h2>
-    <p>Java, Spring Boot, PostgreSQL, React, C#, UX/UI...</p>
+    <div class="section">
+      <h2>Competências</h2>
+      <div class="skills">
+        <span>C#</span><span>ASP.NET MVC</span><span>ASP.NET Web API</span><span>Java</span><span>Spring Boot</span>
+        <span>JavaScript</span><span>React</span><span>HTML5</span><span>CSS3</span><span>Bootstrap</span>
+        <span>PostgreSQL</span><span>MySQL</span><span>SQL Server</span><span>Oracle</span>
+        <span>Git</span><span>GitHub</span><span>UX/UI Design</span><span>Arquitetura da Informação</span>
+        <span>Linux</span><span>Windows</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Formação</h2>
+      <p>Tecnólogo em Análise e Desenvolvimento de Sistemas – UNIGRAN MS (2017)</p>
+    </div>
+
+    <div class="section">
+      <h2>Experiência Profissional</h2>
+      <ul>
+        <li><strong>INOVVAT TECNOLOGIA – Analista de Sistemas (06/2021 - 09/2025)</strong><br>
+          Manutenção e melhorias na folha de pagamento do Estado do MS. Implantação e manutenção do portal dos servidores, sistema SISGED e entrega do e-Social.</li>
+        <li><strong>ENERGISA – Técnico de Informática (2017)</strong><br>Suporte técnico, acesso remoto e manutenção em laboratório.</li>
+        <li><strong>AGILTEC INFORMÁTICA – Técnico (02/2015 - 11/2016)</strong><br>Manutenção de desktops e notebooks, instalação de sistemas e redes.</li>
+        <li><strong>SUPORTE TÉCNICO EM INFORMÁTICA (MEI) – Técnico (2008 - 2014)</strong><br>Atendimento a empresas e pessoas físicas, instalação de Windows/Linux, configuração de redes.</li>
+        <li><strong>CHIPTEK INFORMÁTICA LTDA – Técnico (2004 - 2007)</strong><br>Manutenção de notebooks, técnico de campo, autorizada HP/IBM.</li>
+        <li><strong>ECLIPSE/PROCEDA – Analista de Suporte Técnico II (2001 - 2004)</strong><br>Suporte para Embratel RJ em Lotus Notes, Oracle 8i, SAP e sistemas corporativos.</li>
+        <li><strong>CFPCM – Instrutor e Coordenador de Informática (1995 - 2000)</strong><br>Aulas de informática básica, hardware, Windows e ferramentas de escritório.</li>
+        <li><strong>ONG VIVA-RIO – Instrutor de Informática (2000)</strong><br>Curso de Windows, Word e Internet.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Cursos Relevantes</h2>
+      <p>Java, Spring Boot, C#, JavaScript, React, PHP, HTML5, CSS3, Bootstrap, PostgreSQL, UX/UI Design, Android</p>
+    </div>
+
+    <div class="section">
+      <h2>Idiomas</h2>
+      <p>Inglês Técnico</p>
+    </div>
+
+    <div class="section">
+      <h2>Informações Adicionais</h2>
+      <p>CNH Categoria AB</p>
+    </div>
+
+    <footer>
+      © 2025 - Currículo de Silvio Dias Ferreira
+    </footer>
   </div>
 </body>
 </html>
